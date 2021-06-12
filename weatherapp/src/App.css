@@ -12,7 +12,7 @@
   margin-top: 1%;
   background: linear-gradient(45deg, #EB3349 30%, #F45C43 90%);
   background-size: cover;
-  box-shadow: 5px 10px 5px 10px #fff;
+  box-shadow: 1px 1px 10px 5px #fff;
   padding: 20px;
 }
 .title {
@@ -130,6 +130,17 @@
 .temparture h2 a:hover {
   background: white;
   text-decoration: none;
+}
+.temparturebutton {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .location h3 i{
